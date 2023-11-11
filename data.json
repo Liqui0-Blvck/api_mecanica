@@ -1,0 +1,52 @@
+usuarioAdministrador: {
+  nombre,
+  apellido,
+  rut,
+  correo,
+  contraseña,
+  numeroTelefonico
+}
+
+usuarioDueño: {
+  nombre,
+  apellido,
+  rut,
+  correo,
+  contraseña,
+  numeroTelefonico,
+  banco,
+  cuentaBancaria
+}
+
+usuarioArrendatario: {
+  nombre,
+  apellido,
+  rut,
+  correo,
+  contraseña,
+  numeroTelefonico
+}
+
+estacionamiento: {
+  id,
+  ubicacion,
+  precioPorhora
+}
+
+reserva: {
+  fechaCreacion,
+  horaInicio,
+  horaFin,
+  precioTotal
+}
+
+pago: {
+  fecha,
+  hora,
+  metodos de pago
+}
+
+metodosPago: {
+  apiTransbank,
+  apiMercadoPago
+}
